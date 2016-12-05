@@ -1,0 +1,15 @@
+<?php
+function customize_follow_follow_networks_alter(&$networks, $uid = 0) {
+    $networks[$uid]['imdb'] = array(
+        'title' => t('IMDB'),
+        'domain' => 'imdb.com',
+    );
+    $networks[$uid]['github'] = array(
+        'title' => t('GitHub'),
+        'domain' => 'github.com',
+    );
+    print '<pre>';
+    print_r($networks);
+    print '</pre>';
+
+}

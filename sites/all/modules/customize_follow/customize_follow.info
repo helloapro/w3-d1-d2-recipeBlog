@@ -1,0 +1,5 @@
+name = Customize Follow
+description = Add more sites to follow from
+core = 7.x
+package = My Custom Modules
+files[] = customize_follow.module
