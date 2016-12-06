@@ -244,21 +244,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'recipe_blog',
-      'username' => 'admin',
-      'password' => 'admin',
-      'host' => '127.0.0.1',
-      'port' => '8889',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -290,7 +276,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '5dlxEvvnzmz62F6QoqlOKi69IRWo2qw8c4mR6PdTL_4';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
