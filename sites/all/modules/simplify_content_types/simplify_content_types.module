@@ -1,9 +1,9 @@
 <?php
 
 function simplify_content_types_form_alter(&$form, &$form_state, $form_id) {
-    print '<pre>';
-    print_r($form);
-    print '</pre>';
+    // print '<pre>';
+    // print_r($form);
+    // print '</pre>';
     if ($form_id === 'tips_and_tricks_node_form') {
         $form['path']['#access'] = 0;
     }
